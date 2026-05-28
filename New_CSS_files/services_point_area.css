@@ -1,0 +1,70 @@
+.services_point_area{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+	padding: 0 20px;
+}
+.point_area{
+	background-color: #fff;
+	max-width: 1050px;
+	width: 100%;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	margin: 20px 0;
+	box-shadow: 0 14px 36px rgba(15, 23, 42, 0.06);
+}
+.point_area:hover .black_bar{
+	width: 140px;
+}
+.services_title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 32px;
+	padding: 0 22px;
+}
+.services_heading h1{
+	font-weight: bold;
+	color: #0f172a;
+}
+.services_tagline{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.black_bar{
+	width: 90px;
+	height: 4px;
+	margin-top: 12px;
+	background-color: #2563eb;
+	border-radius: 50px ;
+	transition: 0.4s ease width;
+}
+.services_point{
+	display: flex;
+	flex-direction: column;
+	margin: 28px;
+	color: #475569;
+}
+.services_point ul{
+	list-style: none;
+}
+.services_point ul li{
+	margin-bottom: 14px;
+	text-align: left;
+	padding: 14px 16px;
+	background: #f8fafc;
+	border: 1px solid #eef2f7;
+	border-radius: 8px;
+
+}
+.services_point ul li{
+	cursor: pointer;
+}
+@media (max-width: 868px) {
+
+}

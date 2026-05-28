@@ -1,0 +1,103 @@
+.googlead336x280 { 
+  	float: left;
+}
+.googlead300x250 {
+ 	float: left;
+}
+.googlead300x600 {
+	margin-top: 10px;
+ 	float: left;
+}
+.googlead160x90 {
+  
+}
+.googlead160x90-2 {
+ 
+}
+.googlead728x90 {
+	text-align: center;
+}
+p.googlead {
+	text-align: center;	
+}
+p.googlefloatingad {
+	text-align: left;	
+	float: left;
+	margin: 0 20px 0 0;
+}
+.show_element {
+    display: block;
+    visibility: visible;
+}
+.hide_element {
+    display: none;
+    visibility: hidden;
+}
+.socialize-buttons {
+	margin-right: 10px;
+}
+div.yarpp-related ul {
+	padding: 0;
+	margin: 0;
+}
+div.yarpp-related li {
+	list-style: none;
+	padding: 10px 0;
+	border-bottom: 1px dotted #DDDDDD;
+}
+div.yarpp-related .date {
+	width: 90px;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	margin-right: 0;
+	font: 12px/2 "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	text-transform: uppercase;
+}
+div.yarpp-related .title {
+	width: 490px;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	margin-right: 0;
+	text-transform: uppercase;
+}
+div.yarpp-related a {
+	font: bold 16px/1.2 "PT Sans Narrow", "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	color: #444444;
+	border-bottom: 0 none;
+}
+div.yarpp-related a:hover {
+	color: #A0410D;
+}
+.post-template-template-fullwidthpost-php #content-wrap {
+    width: 980px;
+}
+.post-template-template-fullwidthpost-php #content-top {
+    background: url("../../images/content_top_full.png") no-repeat scroll 0 0 transparent;
+    width: 980px;
+}
+.post-template-template-fullwidthpost-php #content-btm {
+    background: url("../../images/content_bottom_full.png") no-repeat scroll 0 0 transparent;
+    width: 980px;
+}
+.post-template-template-fullwidthpost-php #primary {
+    background: url("../../images/primary_bg_full.png") repeat-y scroll 0 0 transparent;
+    width: 870px;
+}
+.post-template-template-fullwidthpost-php .yarpp-related .date {
+	width: 90px;
+}
+.post-template-template-fullwidthpost-php .yarpp-related .title {
+	width: 780px;
+}
+.post-template-template-fullwidthpost-php .author-bio {
+    width: 950px;
+}
+.post-template-template-fullwidthpost-php .author-inner 
+{
+    background: url("../../images/bg-author-fullwidth.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+}
+.post-template-template-fullwidthpost-php .author-info {
+    width: 740px;
+}

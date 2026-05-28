@@ -1,0 +1,514 @@
+/*-----------------------------------------------------------------------------------*/
+/*	11.	EMI Calculator Styles
+/*-----------------------------------------------------------------------------------*/
+
+#emidashboard {
+    float: left;
+    width: 524px;
+    margin: 0 10px 20px 0;
+}
+#emicalcalulatorform {
+    margin-bottom: 0 !important;
+}
+#emicalcalulatorinnerformwrapper {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #DDDDDD;
+    width: 522px;
+}
+#emicalcalulatorinnerform {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 30px 20px 10px;
+}
+.lamount label, .lint label, .lterm label, .escheme label {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0 10px 0 0;
+    text-align: right;
+    width: 200px;
+}
+.lint span, .lamount span {
+    background: none repeat scroll 0 0 #EDEDED;
+    border-bottom: 1px solid #DBDAD7;
+    border-left: 0 none !important;
+    border-right: 1px solid #DBDAD7;
+    border-top: 1px solid #DBDAD7;
+    display: inline-block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+    width: 35px;
+}
+#emicalcalulatorinnerform div {
+    margin-bottom: 10px;
+}
+#emicalcalulatorform div.sep {
+    padding-top: 25px;
+}
+#emicalcalulatorform input[type="text"] {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #DBDAD7;
+    box-shadow: 1px 1px 4px #F4F4F4 inset;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0 10px;
+}
+#emicalcalulatorform input:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+#loanamount {
+    margin: 0 0 0 15px !important;
+    width: 80px !important;
+}
+#loaninterest, #loanterm {
+    margin: 0 0 0 15px !important;
+    width: 45px !important;
+}
+#loanamountslider, #loaninterestslider, #loantermslider {
+    margin-bottom: 0 !important;
+}
+.lterm {
+    float: left;
+    width: 305px;
+}
+#tenurechoice {
+    float: left;
+    height: 36px;
+    margin: 0 0 0 5px;
+    padding-top: 20px;
+    width: 100px;
+}
+#loanyears, #loanmonths {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    height: 14px;
+    width: 14px;
+}
+#loanyearslabel, #loanmonthslabel {
+    font-size: 13px !important;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0 5px;
+}
+#lyrs, #lmths {
+    height: 18px;
+    margin: 0 !important;
+}
+.escheme {
+    float: left;
+    width: 200px;
+}
+#emischemes {
+    float: left;
+    height: 36px;
+    margin: 0 0 0 25px !important;
+    padding-top: 25px;
+    width: 247px;
+}
+#emiadvance, #emiarrears {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    height: 14px;
+    width: 14px;
+}
+#emiadvancelabel {
+    font-size: 14px !important;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0 10px 0 5px;
+}
+#emiarrearslabel {
+    font-size: 14px !important;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+#eadvance, #earrears {
+    float: left;
+    margin: 0 !important;
+}
+#emicalcalulatorform .helpbutton {
+    float: right;
+    padding-top: 30px;
+}
+.cleardiv {
+    height: 0;
+    clear: both; 
+    margin: 0 !important; 
+    padding: 0 !important; 
+    overflow: hidden; 
+}
+#emipaymentsummary {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border-right: 1px solid #DBDAD7;
+    clear: both;
+    float: left;
+    height: 255px;
+    margin: 0;
+    width: 204px;
+}
+#emiamount, #emitotalinterest {
+    background: none repeat scroll 0 0 #FCFCFC;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: 184px;
+    height: 57px;
+    border-bottom: 1px dotted #DBDAD7;
+}
+#emitotalamount {
+    background: none repeat scroll 0 0 #FCFCFC;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: 184px;
+    height: 79px;
+}
+#emipaymentsummary h4 {
+    color: #888888;
+}
+#emipaymentsummary p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+#emipaymentsummary span {
+    padding-left: 5px;
+}
+#emiamount {
+    border-top: 0 none !important;
+}
+#emiamount p {
+    font-size: 24px;
+}
+#emipiechart {
+    background: none repeat scroll 0 0 #FCFCFC;
+    float: left;
+    height: 255px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    width: 315px;
+}
+#emipaymenttable {
+    background: none repeat scroll 0 0 #FCFCFC;
+    clear: both;
+    margin: 0 0 20px;
+    text-align: center;
+}
+#emipaymenttable table {
+    width: 100%;
+}
+#emipaymenttable table th {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #DBDAD7;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    text-align: center;
+}
+#principalheader {
+    background: none repeat scroll 0 0 #203f5f !important;
+    color: #FFFFFF;
+}
+#interestheader {
+    background: none repeat scroll 0 0 #ae1d28 !important;
+    color: #FFFFFF;
+}
+#balanceheader {
+    background: none repeat scroll 0 0 #666 !important;
+    color: #FFFFFF;
+}
+#emipaymenttable table td {
+    border: 1px solid #DBDAD7;
+    text-align: center;
+}
+.toggle {
+    background: url("../images/toggle-closed.png") no-repeat scroll 10% 50% transparent;
+    cursor: pointer;
+}
+.toggle-open {
+    background: url("../images/toggle-open.png") no-repeat scroll 10% 50% transparent;
+}
+.toggle-hidden {
+    display: none;
+    visibility: hidden;
+}
+.toggle-visible {
+    display: block;
+    visibility: visible;
+    margin-bottom: 0 !important;
+}
+td.paymentyear {
+    text-align: center !important;
+    font-weight: bold !important;
+    width: 140px !important;
+}
+td.currency {
+    border-left: 0 none !important;
+    text-align: right !important;
+    width: 150px !important;
+}
+td.monthyearwrapper {
+    margin: 0;
+    padding: 0;
+}
+td.paidtodateyear, td.paidtodatemonthyear {
+    border-left: 0 none !important;
+    text-align: right !important;
+}
+#monthlypaymentcontainer table {
+    margin: 0;
+    padding: 0;
+}
+#monthlypaymentcontainer td {
+    background: none repeat scroll 0 0 #EFEFEF;
+}
+td.paymentmonthyear {
+    width: 69px !important;
+}
+ul.loanproduct-nav {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    float: none;
+    list-style: none outside none !important;
+    margin: 0 !important;
+    padding: 0;
+}
+ul.loanproduct-nav li {
+    float: left;
+    list-style: none outside none !important;
+    margin: 0 5px -1px 0 !important;
+    position: relative;
+    z-index: 10;
+}
+ul.loanproduct-nav li a {
+    border: 1px solid #DDDDDD!important;
+    border-bottom: none!important;
+    display: block;
+    overflow: hidden;
+    padding: 5px 10px 0 10px;
+    height: 30px;
+    background: #EFEFEF;
+    margin: 0!important;
+    text-decoration: none;
+    color: #444444!important;
+    font-weight: bold;
+    font-size: 16px;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+ul.loanproduct-nav li a:hover {
+    background: none repeat scroll 0 0 #FCFCFC !important;
+    margin: 0 !important;
+}
+ul.loanproduct-nav li.active a {
+    background: none repeat scroll 0 0 #FCFCFC;
+    height: 31px;
+}
+.steps {
+    border-color: transparent;
+    border-style: none solid;
+    border-width: 0 1px;
+    margin: 0 0 35px !important;
+    position: relative;
+    width: 480px;
+}
+.tick {
+    color: #DDDDDD;
+    font-size: 11px;
+    height: 11px;
+    left: 0;
+    line-height: 11px;
+    margin-left: -24px;
+    position: absolute;
+    text-align: center;
+    width: 48px;
+}
+.marker {
+    border: 1px solid transparent;
+    color: #333333;
+    font-size: 9px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+#EMIPaymentscheduleheader {
+    background: none repeat scroll 0 0 #EDEDED;
+    border-color: #DBDAD7;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    text-align: center;
+    width: 524px;
+}
+#EMIPaymentscheduleheader label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#EMIPaymentscheduleheader input[type="text"] {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #DBDAD7;
+    box-shadow: 1px 1px 4px #F4F4F4 inset;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0 10px;
+}
+#EMIPaymentscheduleheader input:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+#startmonthyear {
+    width: 120px;
+}
+#emibarchart {
+    clear: both;
+    margin-bottom: 20px;
+}
+.featuredposts {
+    float: left;
+    width: 314px;
+    height: 207px;
+    margin: 0 0 9px;
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    overflow: hidden;
+}
+.fpcaption {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 5px 0 !important;
+    border-bottom: 3px double #EBEBEB;
+}
+.featuredposts ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.featuredposts li {
+    padding: 5px 0 !important;
+    margin: 0 !important;
+    list-style: none;
+    border-bottom: 1px dotted #DDDDDD;
+}
+.featuredposts li:last-child {
+    border-bottom: 0 none;
+}
+.featuredposts a {
+    border-bottom: 0 none !important;
+}
+#bbloanproducts {
+    border-top: 1px solid #DDDDDD;
+    float: left;
+    height: 80px;
+    margin: 0;
+    padding: 10px;
+    width: 502px;
+}
+#bbloanproducts p {
+    margin: 0 0 5px 0;
+    text-align: center;
+    font-weight: bold;
+}
+#bbloanproducts a {
+    font: bold 18px/1 "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#bbhomeloan, #bbcarloan, #bbpersonalloan {
+    text-align: center;
+}
+.socialshare {
+    list-style: none;
+    float: right;
+    display: inline;
+    margin: 0;
+    height: 90px;
+    padding: 0;
+}
+.socialshare li {
+    display: inline;
+    float: right;
+    margin-left: 20px;
+}
+.display-posts-listing {
+	padding: 0;
+	margin: 0;
+}
+.listing-item {
+	list-style: none;
+	padding: 20px 0;
+	border-bottom: 1px solid #DDDDDD;
+}
+.listing-item a {
+	border-bottom: 0 none;
+}
+span.tags {
+	float: right;
+}
+span.tags a {
+	font: 11px/1 "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	text-transform: uppercase;
+	background: #bf4e10;
+	color: #FFFFFF;
+	padding: 5px;
+	display: inline-block;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	margin-right: 5px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+span.tags a:hover {
+	background: #A0410D;
+}
+span.date {
+	color: #999999;
+	font: 11px/13px "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	text-transform: uppercase;
+	width: 40px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 20px;
+}
+span.title {
+	margin-right: 10px;
+}
+span.title a {
+	font: bold 26px/1 "PT Sans Narrow", "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	color: #444444;
+	text-transform: uppercase;
+}
+span.title a:hover {
+	color: #A0410D;
+}
+.page-template-template-emicalculator-php #content-wrap {
+    width: 980px;
+}
+.page-template-template-emicalculator-php #content-top {
+    background: url("../../images/content_top_full.png") no-repeat scroll 0 0 transparent;
+    width: 980px;
+}
+.page-template-template-emicalculator-php #content-btm {
+    background: url("../../images/content_bottom_full.png") no-repeat scroll 0 0 transparent;
+    width: 980px;
+}
+.page-template-template-emicalculator-php #primary {
+    background: url("../../images/primary_bg_full.png") repeat-y scroll 0 0 transparent;
+    width: 870px;
+}

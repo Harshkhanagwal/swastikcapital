@@ -1,0 +1,63 @@
+/*-----------------------------------------------------------------------------------*/
+/*	11.	Multi-purpose Loan Calculator Styles
+/*-----------------------------------------------------------------------------------*/
+#residexchartcontainer {
+    border-bottom: 3px double #EBEBEB;
+    padding-bottom: 20px;
+    height: 600px; 
+    margin: 0 auto;
+}
+#residexcityzoneschartcontainer {
+    height: 900px; 
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#citieswrapper {
+    padding: 20px 0;
+    margin: 0 auto;
+}
+#citieswrapper label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.highcharts-tooltip span {
+    height:auto;
+    width:300px;
+    overflow:auto;
+    white-space:normal !important;
+}
+.cleardiv {
+    height: 0;
+    clear: both; 
+    margin: 0 !important; 
+    padding: 0 !important; 
+    overflow: hidden; 
+}
+.socialshare {
+    list-style: none;
+    float: right;
+    display: inline;
+    margin: 0;
+    height: 90px;
+    padding: 0;
+}
+.socialshare li {
+    display: inline;
+    float: right;
+    margin-left: 20px;
+}
+.page-template-template-nhbresidex-php #content-wrap {
+    width: 980px;
+}
+.page-template-template-nhbresidex-php #content-top {
+    background: url("../../images/content_top_full.png") no-repeat scroll 0 0 transparent;
+    width: 980px;
+}
+.page-template-template-nhbresidex-php #content-btm {
+    background: url("../../images/content_bottom_full.png") no-repeat scroll 0 0 transparent;
+    width: 980px;
+}
+.page-template-template-nhbresidex-php #primary {
+    background: url("../../images/primary_bg_full.png") repeat-y scroll 0 0 transparent;
+    width: 870px;
+}

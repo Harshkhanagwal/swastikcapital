@@ -1,0 +1,31 @@
+.lap_table{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.lap_table_head{
+    opacity: 0.7;
+}
+.lap_table_main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.lap_table_sections{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.lap_table_row{
+    display: flex;
+    flex-direction: row;
+}
+.lap_table_content_sections{
+    margin-right: 10px;
+}
+@media (max-width: 764px){
+    .lap_table_main{
+        flex-direction: column;
+    }
+}

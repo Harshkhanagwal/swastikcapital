@@ -1,0 +1,13 @@
+
+#font_tag{
+    opacity: 1;
+}
+#address_text{
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.contact_method{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}

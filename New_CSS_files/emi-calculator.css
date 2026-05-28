@@ -1,0 +1,223 @@
+.emi-hero{
+	background-image: linear-gradient(115deg, rgba(8, 20, 43, 0.9), rgba(20, 94, 144, 0.72)), url('../source/Images/for_background/piggy_bank_dark_shade.png');
+}
+.emi-section{
+	padding: 0 20px 70px;
+	margin-top: -54px;
+	position: relative;
+	z-index: 2;
+}
+.emi-shell,
+.emi-breakdown{
+	width: min(1120px, 100%);
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	box-shadow: 0 24px 70px rgba(15, 23, 42, 0.12);
+}
+.emi-shell{
+	display: grid;
+	grid-template-columns: 1fr .92fr;
+	gap: 28px;
+	padding: clamp(24px, 4vw, 42px);
+}
+.section-label{
+	color: #2563eb;
+	font-size: 13px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	margin-bottom: 8px;
+}
+.emi-panel-heading h2,
+.emi-breakdown h2{
+	color: #0f172a;
+	font-size: clamp(28px, 4vw, 42px);
+	line-height: 1.15;
+}
+.emi-panel-heading{
+	margin-bottom: 24px;
+}
+.field-group{
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 18px 0;
+	border-bottom: 1px solid #eef2f7;
+}
+.field-label-row{
+	display: flex;
+	justify-content: space-between;
+	gap: 18px;
+	color: #0f172a;
+}
+.field-label-row label{
+	font-weight: 700;
+}
+.field-label-row strong{
+	color: #2563eb;
+}
+.field-group input[type="range"]{
+	accent-color: #2563eb;
+}
+.field-group input[type="number"]{
+	width: 100%;
+	min-height: 44px;
+	padding: 10px 12px;
+	border: 1px solid #dbe3ef;
+	border-radius: 8px;
+	outline: none;
+}
+.field-group input[type="number"]:focus{
+	border-color: #2563eb;
+	box-shadow: 0 0 0 4px rgba(37, 99, 235, .12);
+}
+.tenure-toggle{
+	display: inline-flex;
+	gap: 8px;
+	padding: 6px;
+	margin-top: 18px;
+	background: #f1f5f9;
+	border-radius: 8px;
+}
+.tenure-toggle button{
+	min-height: 38px;
+	padding: 8px 16px;
+	border: 0;
+	border-radius: 8px;
+	background: transparent;
+	color: #475569;
+	font-weight: 800;
+	cursor: pointer;
+}
+.tenure-toggle button.active{
+	background: #2563eb;
+	color: #fff;
+}
+.emi-results-panel{
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+.emi-chart{
+	--interest: 58%;
+	min-height: 290px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	background: conic-gradient(#2563eb 0 var(--interest), #38bdf8 var(--interest) 100%);
+	position: relative;
+}
+.emi-chart:after{
+	content: "";
+	position: absolute;
+	width: 62%;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	background: #fff;
+}
+.emi-chart div{
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding: 18px;
+}
+.emi-chart span{
+	display: block;
+	color: #64748b;
+	font-weight: 700;
+}
+.emi-chart strong{
+	display: block;
+	color: #0f172a;
+	font-size: clamp(26px, 4vw, 36px);
+	line-height: 1.1;
+	margin-top: 8px;
+}
+.result-grid{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 12px;
+}
+.result-card{
+	padding: 16px;
+	background: #f8fafc;
+	border: 1px solid #eef2f7;
+	border-radius: 8px;
+}
+.result-card span{
+	display: block;
+	color: #64748b;
+	font-size: 13px;
+	margin-bottom: 4px;
+}
+.result-card strong{
+	color: #0f172a;
+	font-size: 20px;
+}
+.emi-note{
+	display: flex;
+	gap: 10px;
+	padding: 14px;
+	border-radius: 8px;
+	background: #eff6ff;
+	color: #475569;
+}
+.emi-note i{
+	color: #2563eb;
+	margin-top: 4px;
+}
+.emi-breakdown{
+	margin-top: 16px;
+	padding: clamp(24px, 4vw, 34px);
+	display: grid;
+	grid-template-columns: .75fr 1fr;
+	gap: 28px;
+	align-items: center;
+}
+.breakdown-bars{
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+.bar-label{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 8px;
+	color: #0f172a;
+	font-weight: 700;
+}
+.bar-track{
+	height: 12px;
+	border-radius: 999px;
+	background: #e2e8f0;
+	overflow: hidden;
+}
+.bar-track span{
+	display: block;
+	width: 42%;
+	height: 100%;
+	border-radius: inherit;
+	background: #38bdf8;
+}
+.interest-track span{
+	width: 58%;
+	background: #2563eb;
+}
+@media screen and (max-width: 900px){
+	.emi-shell,
+	.emi-breakdown{
+		grid-template-columns: 1fr;
+	}
+}
+@media screen and (max-width: 615px){
+	.emi-section{
+		margin-top: 24px;
+	}
+	.field-label-row{
+		flex-direction: column;
+		gap: 4px;
+	}
+}

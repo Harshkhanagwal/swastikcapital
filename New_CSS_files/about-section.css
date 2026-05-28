@@ -1,0 +1,78 @@
+.about-section{
+	display: flex;
+	justify-content: center;
+	margin-top: -54px;
+	margin-bottom: 24px;
+	padding: 0 20px;
+	position: relative;
+	z-index: 2;
+}
+.about-inner-section{
+	display: flex;
+	flex-direction: row;
+	max-width: 1050px;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	box-shadow: 0 24px 70px rgba(15, 23, 42, 0.12);
+	overflow: hidden;
+}
+.about-section-pic{
+	min-height: 420px;
+	flex: 0 0 42%;
+	background-image: url('../source/Images/for_background/hand_shake_p.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.about-section-summry{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 48px;
+	text-align: left;
+}
+.about-section-summry h1{
+	font-size: clamp(30px, 4vw, 44px);
+	line-height: 1.1;
+	margin-bottom: 14px;
+	color: #0f172a;
+}
+.about-section-summry p{
+	color: #475569;
+	margin-bottom: 18px;
+	margin-top: 0;
+}
+.apply-nowbt{
+	min-height: 44px;
+	width: fit-content;
+	padding: 11px 18px;
+	border: 1px solid #2563eb;
+	border-radius: 8px;
+	color: #fff;	
+	background: #2563eb;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.2s ease background, 0.2s ease transform;
+}
+.apply-nowbt:hover{
+	background: #1d4ed8;
+	transform: translateY(-1px);
+}
+@media screen and (max-width: 820px){
+	.about-section{
+		margin-top: 24px;
+	}
+	.about-inner-section{
+		flex-direction: column;
+	}
+	.about-section-pic{
+		flex-basis: auto;
+		min-height: 230px;
+	}
+	.about-section-summry{
+		padding: 30px 24px;
+	}
+}
+

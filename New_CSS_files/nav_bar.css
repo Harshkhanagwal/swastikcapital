@@ -1,0 +1,36 @@
+header{
+	position: relative;
+	background: #fff;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.nav_bar_inner{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 15px;
+}
+#vehicle1:checked ~ .nav_bar_inner{
+	display: none;
+}
+.nav_elements{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.nav_link{
+	margin: 10px;
+	text-decoration: none;
+	color: #000;
+	transition: 0.4s;
+	/* font-size: 2vw; */
+}
+.nav_link:hover{
+	color:#33d4d6;
+}
