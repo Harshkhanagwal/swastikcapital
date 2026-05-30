@@ -20,6 +20,64 @@ a{
 button{
 	font-family: inherit;
 }
+.form-is-submitting{
+	position: relative;
+}
+.form-is-submitting::before{
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: 8;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.78);
+	backdrop-filter: blur(2px);
+}
+.form-is-submitting::after{
+	content: "Sending your request...";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 9;
+	min-width: min(280px, calc(100% - 32px));
+	padding: 16px 18px 16px 52px;
+	border: 1px solid #bfdbfe;
+	border-radius: 8px;
+	background: #fff;
+	color: #0f172a;
+	box-shadow: 0 18px 45px rgba(15, 23, 42, 0.16);
+	font-size: 15px;
+	font-weight: 800;
+	text-align: left;
+	transform: translate(-50%, -50%);
+}
+.form-is-submitting button[type="submit"]{
+	cursor: wait;
+	opacity: .86;
+}
+.form-is-submitting .contact-form-footer,
+.form-is-submitting .form-footer{
+	position: relative;
+	z-index: 10;
+}
+.form-is-submitting .contact-form-footer::before,
+.form-is-submitting .form-footer::before{
+	content: "";
+	position: absolute;
+	left: calc(50% - 116px);
+	top: -67px;
+	z-index: 11;
+	width: 18px;
+	height: 18px;
+	border: 3px solid #bfdbfe;
+	border-top-color: #2563eb;
+	border-radius: 50%;
+	animation: submitSpin .8s linear infinite;
+}
+@keyframes submitSpin{
+	to{
+		transform: rotate(360deg);
+	}
+}
 /*nav styling */
 /* 
 header{

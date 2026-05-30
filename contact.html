@@ -130,6 +130,70 @@
             </article>
         </div>
 
+        <section class="contact-form-section contact-page-form">
+            <div class="contact-form-inner">
+                <div class="contact-form-copy">
+                    <p class="section-label">Request a call back</p>
+                    <h2>Share your loan requirement</h2>
+                    <p>
+                        Fill the form and our team will contact you to understand your profile, documents and suitable finance options.
+                    </p>
+                </div>
+                <form class="contact-form" action="https://forminit.com/f/k6ei0muge1r" method="POST">
+                    <div class="contact-form-grid">
+                        <div class="contact-form-field">
+                            <label for="contact_name">Full Name</label>
+                            <input type="text" name="fi-sender-fullName" id="contact_name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="contact-form-field">
+                            <label for="contact_phone">Mobile Number</label>
+                            <input type="tel" name="fi-text-mobile" id="contact_phone" placeholder="+91 mobile number" required>
+                        </div>
+                        <div class="contact-form-field">
+                            <label for="contact_email">Email Address</label>
+                            <input type="email" name="fi-sender-email" id="contact_email" placeholder="you@example.com">
+                        </div>
+                        <div class="contact-form-field">
+                            <label for="contact_loan_type">Loan Type</label>
+                            <select name="fi-select-loanType" id="contact_loan_type" required>
+                                <option value="">Please Select</option>
+                                <option value="Home Loan">Home Loan</option>
+                                <option value="Business Loan">Business Loan</option>
+                                <option value="Loan Against Property">Loan Against Property</option>
+                                <option value="Personal Loan">Personal Loan</option>
+                                <option value="Working Capital">Working Capital</option>
+                            </select>
+                        </div>
+                        <div class="contact-form-field">
+                            <label for="contact_amount">Loan Amount</label>
+                            <input type="number" name="fi-number-loanAmount" id="contact_amount" placeholder="Loan amount" required>
+                        </div>
+                        <div class="contact-form-field">
+                            <label for="contact_city">City</label>
+                            <input type="text" name="fi-sender-city" id="contact_city" placeholder="Your city" required>
+                        </div>
+                        <div class="contact-form-field">
+                            <label for="contact_preference">Preferred Contact</label>
+                            <select name="fi-select-preferredContact" id="contact_preference">
+                                <option value="">Please Select</option>
+                                <option value="Phone">Phone</option>
+                                <option value="WhatsApp">WhatsApp</option>
+                                <option value="Email">Email</option>
+                            </select>
+                        </div>
+                        <div class="contact-form-field contact-form-message">
+                            <label for="contact_message">Message</label>
+                            <textarea name="fi-text-message" id="contact_message" placeholder="Tell us about your requirement"></textarea>
+                        </div>
+                    </div>
+                    <div class="contact-form-footer">
+                        <p>Your details are used only to contact you about your loan requirement.</p>
+                        <button type="submit" class="contact-form-submit">Submit Enquiry</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
         <div class="feedback-panel">
             <div>
                 <p class="section-label">Feedback and complaints</p>
@@ -210,13 +274,14 @@
 <div class="cc_line">
     <div class="cc_line_inner">
         <p>© 2022 Swastik Capital. All Rights Reserved.</p>
-        <p>Developed by : <a href="">Harsh khanagwal</a></p>
+        <p>Developed by : <a href="https://teqnogenies.online" target="_blank" rel="noopener">Teqnogenies</a></p>
     </div>
 </div>
 <!-- footer end -->
 
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./New_JS_files/form-submit-state.js"></script>
 <script>
 //AOS library
 AOS.init();

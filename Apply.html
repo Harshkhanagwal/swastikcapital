@@ -55,20 +55,20 @@
             <h1>Apply for loan</h1>
             <p>Basic information helps us understand your profile and connect you with the right product.</p>
         </div>
-        <form action="">
+        <form action="https://forminit.com/f/k6ei0muge1r" method="POST">
             <div class="form_section contact-details">
                 <div class="clm_form">
                     <div class="form_cell">
                         <label for="full_name">Full Name</label>
-                        <input type="text" name="full_name" id="full_name" placeholder="Enter your name" required>
+                        <input type="text" name="fi-sender-fullName" id="full_name" placeholder="Enter your name" required>
                     </div>
                     <div class="form_cell">
                         <label for="mobile">Mobile Number</label>
-                        <input type="tel" name="mobile" id="mobile" placeholder="+91 mobile number" required>
+                        <input type="tel" name="fi-text-mobile" id="mobile" placeholder="+91 mobile number" required>
                     </div>
                     <div class="form_cell">
                         <label for="email">Email Address</label>
-                        <input type="email" name="email" id="email" placeholder="you@example.com">
+                        <input type="email" name="fi-sender-email" id="email" placeholder="you@example.com">
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                 <div class="clm_form">
                     <div class="form_cell">
                         <label for="loantype">Loan Type</label>
-                        <select name="loantype" id="loantype" required>
+                        <select name="fi-select-loanType" id="loantype" required>
                             <option value="">Please Select</option>
                             <option value="Home Loan"> Home Loan</option>
                             <option value="Loan Against Property"> Loan Against Property</option>
@@ -87,11 +87,11 @@
                     </div>
                     <div class="form_cell">
                         <label for="Annual_income">Annual Income / ITR</label>
-                        <input type="number" name="Annual_income" id="Annual_income" placeholder="Annual Income / ITR">
+                        <input type="number" name="fi-number-annualIncome" id="Annual_income" placeholder="Annual Income / ITR">
                     </div>
                     <div class="form_cell">
                         <label for="annualturnover">Annual Turnover</label>
-                        <select name="annualturnover" id="annualturnover">
+                        <select name="fi-select-annualTurnover" id="annualturnover">
                                 <option value="">Please Select</option>
                                 <option value="1"> 0 - 40 Lacs</option>
                                 <option value="2"> 40 Lacs - 1 Cr</option>
@@ -103,7 +103,7 @@
                 <div class="clm_form">
                     <div class="form_cell">
                         <label for="city">City</label>
-                        <select name="city" id="city" required>
+                        <select name="fi-sender-city" id="city" required>
                             <option value="Please Select">Please Select</option>
                             <option value="Ahmedabad">Ahmedabad</option>
                             <option value="Bangalore">Bangalore</option>
@@ -203,11 +203,11 @@
                     </div>
                     <div class="form_cell">
                         <label for="loan_amount">Loan Amount</label>
-                        <input type="number" name="loan_amount" id="loan_amount" placeholder="Loan Amount" required>
+                        <input type="number" name="fi-number-loanAmount" id="loan_amount" placeholder="Loan Amount" required>
                     </div>
                     <div class="form_cell">
                         <label for="preferred_contact">Preferred Contact</label>
-                        <select name="preferred_contact" id="preferred_contact">
+                        <select name="fi-select-preferredContact" id="preferred_contact">
                             <option value="">Please Select</option>
                             <option value="Phone">Phone</option>
                             <option value="Email">Email</option>
@@ -218,7 +218,7 @@
             </div>
             <div class="form_cell full-width-cell">
                 <label for="message">Anything else we should know?</label>
-                <textarea name="message" id="message" placeholder="Tell us about your requirement, timeline or documents available"></textarea>
+                <textarea name="fi-text-message" id="message" placeholder="Tell us about your requirement, timeline or documents available"></textarea>
             </div>
             <div class="form-footer">
                 <p>Your details are used only to contact you about your loan requirement.</p>
@@ -230,5 +230,6 @@
     </div>
 </div>
 
+<script src="./New_JS_files/form-submit-state.js"></script>
 </body>
 </html>
